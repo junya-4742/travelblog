@@ -1,3 +1,20 @@
+* {
+  outline: 1px solid red;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
@@ -42,6 +59,17 @@ h1 {
     padding: 10px 0;
 }
 
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
 /* hero */
 .hero {
     display: flex;
@@ -67,6 +95,17 @@ h1 {
     display: block;
     text-align: center;
     text-decoration: underline;
+}
+
+@media (max-width:767px) {
+    .hero{
+        display: block;
+    }
+
+    .hero-box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 /* main */
@@ -148,6 +187,17 @@ h1 {
     flex: 1;
 }
 
+@media (max-width:767px) {
+    .two-column{
+        display: block;
+    }
+
+    .column1,
+    .column2{
+        width: 100%;
+    }
+}
+
 /* footer */
 footer {
     background-color: #f7f7f7;
@@ -171,6 +221,7 @@ footer {
 
 .footer-item{
     flex: 1;
+    margin-bottom: 50px;
 }
 
 .about-txt{
@@ -192,4 +243,10 @@ footer {
 
 .copy{
     text-align: center;
+}
+
+@media (max-width:767px) {
+    .footer{
+        display: block;
+    }
 }
