@@ -59,17 +59,6 @@ h1 {
     padding: 10px 0;
 }
 
-.nav li {
-  list-style: none;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 10px 0;
-}
-
 /* hero */
 .hero {
     display: flex;
