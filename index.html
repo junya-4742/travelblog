@@ -11,33 +11,35 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Trabel Blog</h1>
-    </div>
-    <header class="header">
+    <header>
         <div class="container">
-            <ul class="nav">
-                <a href="#">
-                    <li>NEW</li>
-                </a>
-                <a href="#">
-                    <li>COLUMN</li>
-                </a>
-                <a href="#">
-                    <li>SERIES</li>
-                </a>
-                <a href="#">
-                    <li>Q&A</li>
-                </a>
-                <a href="#">
-                    <li>CONTACT</li>
-                </a>
-            </ul>
+            <h1>Trabel Blog</h1>
         </div>
+        <nav class="global-nav">
+            <div class="container">
+                <ul class="nav">
+                    <a href="#">
+                        <li>NEW</li>
+                    </a>
+                    <a href="#">
+                        <li>COLUMN</li>
+                    </a>
+                    <a href="#">
+                        <li>SERIES</li>
+                    </a>
+                    <a href="#">
+                        <li>Q&A</li>
+                    </a>
+                    <a href="#">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div class="container">
-        <section class="hero">
-            <div class="hero-box">
+        <div class="hero">
+            <article class="hero-box">
                 <img src="./images/pickup1.jpg" alt="pickup1" class="hero-img">
                 <div class="hero-txt">
                     <p>
@@ -47,8 +49,8 @@
                 </div>
                 <a href="#" class="hero-link">READ MORE</a>
 
-            </div>
-            <div class="hero-box">
+            </article>
+            <article class="hero-box">
                 <img src="./images/pickup2.jpg" alt="pickup2" class="hero-img">
                 <div class="hero-txt">
                     <p>
@@ -58,8 +60,8 @@
                 </div>
                 <a href="#" class="hero-link">READ MORE</a>
 
-            </div>
-            <div class="hero-box">
+            </article>
+            <article class="hero-box">
                 <img src="./images/pickup3.jpg" alt="pickup3" class="hero-img">
                 <div class="hero-txt">
                     <p>
@@ -69,11 +71,11 @@
                 </div>
                 <a href="#" class="hero-link">READ MORE</a>
 
-            </div>
-        </section>
+            </article>
+        </div>
         <div class="two-column">
             <main class="column1">
-                <div class="main-box">
+                <article class="main-box">
                     <h2 class="main-title">タイトルテキストテキストテキストテキストテキスト</h2>
                     <ul class="main-date">
                         <li>2020/01/01</li>
@@ -84,8 +86,8 @@
                         テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキ
                         ストテキストテキストテキストテキストテキスト</p>
                     <a href="#" class="hero-link">READ MORE</a>
-                </div>
-                <div class="main-box">
+                    </article>
+                <article class="main-box">
                     <h2 class="main-title">タイトルテキストテキストテキストテキストテキスト</h2>
                     <ul class="main-date">
                         <li>2020/01/01</li>
@@ -96,8 +98,8 @@
                         テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキ
                         ストテキストテキストテキストテキストテキスト</p>
                     <a href="#" class="hero-link">READ MORE</a>
-                </div>
-                <div class="main-box">
+                </article>
+                <article class="main-box">
                     <h2 class="main-title">タイトルテキストテキストテキストテキストテキスト</h2>
                     <ul class="main-date">
                         <li>2020/01/01</li>
@@ -108,7 +110,7 @@
                         テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキ
                         ストテキストテキストテキストテキストテキスト</p>
                     <a href="#" class="hero-link">READ MORE</a>
-                </div>
+                </article>
             </main>
             <aside class="column2">
                 <section class="profile">
@@ -165,8 +167,8 @@
     </div>
     <footer>
         <div class="container footer">
-            <div class="about">
-                <p class="footer-title">About</p>
+            <section class="footer-item about">
+                <h3 class="footer-title">About</h3>
                 <p class="about-txt">
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
@@ -175,9 +177,9 @@
                     <li><a href="#">▶お仕事の依頼</a></li>
                     <li><a href="#">▶お問い合わせ</a></li>
                 </ul>
-            </div>
-            <div class="menu">
-                <p class="footer-title">Menu</p>
+            </section>
+            <section class="footer-item menu">
+                <h3 class="footer-title">Menu</h3>
                 <ul class="menu-list">
                     <li><a href="#">NEW</a></li>
                     <li><a href="#">CATEGORY</a></li>
@@ -185,13 +187,14 @@
                     <li><a href="#">SERIES</a></li>
                     <li><a href="#">Q&A</a></li>
                 </ul>
-            </div>
-            <div class="twitter">
-                <p class="footer-title">Twitter</p>
-                <a class="twitter-timeline" data-width="315" href="https://twitter.com/WebWebenjinia72?ref_src=twsrc%5Etfw">Tweets by
+            </section>
+            <section class="footer-item twitter">
+                <h3 class="footer-title">Twitter</h3>
+                <a class="twitter-timeline" data-width="315"
+                    href="https://twitter.com/WebWebenjinia72?ref_src=twsrc%5Etfw">Tweets by
                     WebWebenjinia72</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
+            </section>
         </div>
         <p class="copy">&copy; Travel & Blog</p>
     </footer>

@@ -25,7 +25,11 @@ h1 {
 }
 
 /* header */
-.header {
+.container h1{
+    background-color: none;
+}
+
+.global-nav {
     background-color: #333333;
     color: #FFFFFF;
     margin-bottom: 44px;
@@ -165,7 +169,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.about {
+.footer-item{
     flex: 1;
 }
 
@@ -177,10 +181,6 @@ footer {
    margin-bottom: 5px;
 }
 
-.menu {
-    flex: 1;
-}
-
 .menu-list li{
     padding: 15px;
     border-top: #777777 solid 1px;
@@ -188,10 +188,6 @@ footer {
 
 .menu-list:last-child{
     border-bottom: #777777 solid 1px;
-}
-
-.twitter {
-    flex: 1;
 }
 
 .copy{
